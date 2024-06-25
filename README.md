@@ -5,7 +5,9 @@
 Make it easy to introduce Playwright into your Rails application.
 
 ```ruby
-gem 'capybara-playwright-driver'
+source "https://rubygems.pkg.github.com/packfiles" do
+  gem 'capybara-playwright-driver'
+end
 ```
 
 **NOTE**: If you want to use Playwright-native features (such as auto-waiting, various type of locators, ...), [consider using playwright-ruby-client directly](https://playwright-ruby-client.vercel.app/docs/article/guides/rails_integration_with_null_driver).

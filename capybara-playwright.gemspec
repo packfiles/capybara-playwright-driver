@@ -8,12 +8,14 @@ Gem::Specification.new do |spec|
   spec.name          = 'capybara-playwright-driver'
   spec.version       = Capybara::Playwright::VERSION
 
-  spec.authors       = ['YusukeIwaki']
-  spec.email         = ['q7w8e9w8q7w8e9@yahoo.co.jp']
+  spec.authors       = ['Charlton Trezevant']
+  spec.email         = ['charlton@packfiles.io']
 
   spec.summary       = 'Playwright driver for Capybara'
-  spec.homepage      = 'https://github.com/YusukeIwaki/capybara-playwright-driver'
+  spec.homepage      = 'https://github.com/packfiles/capybara-playwright-driver'
   spec.license       = 'MIT'
+
+  spec.metadata["github_repo"] = 'https://github.com/packfiles/capybara-playwright-driver'
 
   spec.files         = Dir.chdir(File.expand_path(__dir__)) do
     `git ls-files -z`.split("\x0").reject do |f|
